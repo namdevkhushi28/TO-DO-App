@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  color: black;
+ 
+}
+.container {
+  text-align: center;
+  margin: 40px auto;
+}
+h1 {
+  padding: 25px 0;
+  font-size: 40px;
+}
+input {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 33%;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+}
+button {
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 6px 8px;
+  background-color: rgb(221, 205, 205);
+  color: black;
+  
+  border: none;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  width: 55%;
+  border-radius: 8px;
+}
+ul i {
+  text-align: right;
+  cursor: pointer;
+}
